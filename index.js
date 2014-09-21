@@ -46,9 +46,9 @@ var params = nomnom
     })
     .help(
       'A list of candidates for on-duty can be attached in several ways, for example:\n' +
-      '   duty -c name1:email1,name2:email2\n' +
-      '   duty -c name1:email1 -c name2:email2\n' +
-      '   cat file | duty\n'
+      '   dutysched -c name1:email1,name2:email2\n' +
+      '   dutysched -c name1:email1 -c name2:email2\n' +
+      '   cat file | dutysched\n'
     )
     .parse();
 

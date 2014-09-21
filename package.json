@@ -1,9 +1,9 @@
 {
   "name": "duty-scheduler",
   "description": "Simple cli tool for generate on-duty schedules",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": ["duty","on-duty","schedule","scheduler"],
-  "homepage": "https://github.com/rozmiarek/duty-schedular",
+  "homepage": "https://github.com/rozmiarek/duty-scheduler",
   "repository": {
     "type": "git",
     "url": "git://github.com/rozmiarek/duty-scheduler.git"
