@@ -1,8 +1,13 @@
 {
   "name": "duty-scheduler",
   "description": "Simple cli tool for generate on-duty schedules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": ["duty","on-duty","schedule","scheduler"],
+  "homepage": "https://github.com/rozmiarek/duty-schedular",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rozmiarek/duty-scheduler.git"
+  },
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.21.4",
@@ -18,5 +23,6 @@
   },
   "scripts": {
     "test": "jshint **/*.js && mocha test"
-  }
+  },
+  "license": "MIT"
 }

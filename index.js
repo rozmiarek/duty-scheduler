@@ -5,7 +5,7 @@ var Generator = require('./modules/generator');
 var nomnom = require('nomnom');
 
 var params = nomnom
-    .script('duty')
+    .script('dutysched')
     .option('startDate', {
       abbr: 's',
       full: 'start-date',
@@ -48,7 +48,7 @@ var params = nomnom
       'A list of candidates for on-duty can be attached in several ways, for example:\n' +
       '   duty -c name1:email1,name2:email2\n' +
       '   duty -c name1:email1 -c name2:email2\n' +
-      '   cat candidates.txt | duty\n'
+      '   cat file | duty\n'
     )
     .parse();
 
