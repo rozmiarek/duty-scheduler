@@ -1,0 +1,22 @@
+{
+  "name": "duty-scheduler",
+  "description": "Simple cli tool for generate on-duty schedules",
+  "version": "0.1.0",
+  "keywords": ["duty","on-duty","schedule","scheduler"],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4",
+    "jshint": "^2.5.5"
+  },
+  "dependencies": {
+    "underscore": "1.4.4",
+    "moment": "^2.8.3",
+    "nomnom": "^1.8.0"
+  },
+  "bin": {
+    "dutysched": "./index.js"
+  },
+  "scripts": {
+    "test": "jshint **/*.js && mocha test"
+  }
+}
